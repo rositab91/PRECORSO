@@ -1,19 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+
 body,
 html {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.2rem;
-    color: wheat;
-    text-align: center;
-    box-sizing: border-box;
-    height: 100%;
+  font-family: 'Bona Nova', serif;
+  font-size: 1.4rem;
+  color: gold;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100%;
 }
 
-.bg{ 
-background-image: url(/assets/img/monkey-in-blue-shirt-red-blue-cap-and-glasses-listening-to-music-with-headphones-wallpaper-2800x2100_28.jpg);
+p {
+  font-family: 'Bona Nova', serif;
+  font-size: 1.4rem;
+}
+
+h1 {
+  color: gold;
+  padding-bottom: 1.5%;
+}
+
+
+.bg {
+  background-image: url(/assets/img/monkey-in-blue-shirt-red-blue-cap-and-glasses-listening-to-music-with-headphones-wallpaper-2800x2100_28.jpg);
   height: 100%;
   width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 2%;
-  }
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 2%;
+}
+
+input {
+  font-size: 0.8em;
+  size: 20%;
+  border-radius: 15%;
+  border: solid;
+  font-family: 'Bona Nova', serif;
+}
+
+.check {
+  font-size: 110%;
+}
+
+a {
+  color: white;
+  font-family: 'Bona Nova', serif;
+  font-size: 1.2rem;
+}
+
+a:hover {
+  color: crimson;
+}
+
+#button {
+  background-color: gold;
+  font-weight: bold;
+  color: black;
+  border: solid white;
+  border-radius: 28%;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 80%;
+}
+
+#click {
+  font-family: 'Bona Nova', serif;
+  font-size: 1.2rem;
+}
