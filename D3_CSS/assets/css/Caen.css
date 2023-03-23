@@ -12,16 +12,18 @@ body {
 
 .image-container {
     height: 500px;
-    background-image: url(https://images.unsplash.com/photo-1585728262697-7d8fd7212757?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-image: url(https://images.unsplash.com/photo-1571834807246-ef0388c301a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
     background-size: cover;
 }
 
 h1 {
     font-family: 'Prata', serif;
+    font-size: 64px;
 }
 
 h3 {
     font-family: 'Prata', serif;
+    font-size: 24px;
     margin-top: 0;
 }
 
@@ -40,7 +42,7 @@ h6 {
     margin-top: 56px;
     color: white;
     border-radius: 6px;
-    background-image: linear-gradient(to right,#13BBF8, #B69AB6);
+    background-image: linear-gradient(to right,#E7DECB, #262828);
 }
 
 ul {
@@ -60,3 +62,17 @@ li a{
     color: #13BBF8;
 
 }
+
+footer{
+    background-color: black;
+    padding: 16px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+}
+
+a:visited {
+    color: #262828;
+  }
