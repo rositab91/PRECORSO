@@ -11,9 +11,9 @@ body {
 }
 
 .image-container {
-    height: 500px;
-    background-image: url(https://images.unsplash.com/photo-1571834807246-ef0388c301a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
-    background-size: cover;
+height: 500px;    
+background-image: url(https://images.unsplash.com/photo-1571834807246-ef0388c301a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80);
+background-repeat: no-repeat;
 }
 
 h1 {
